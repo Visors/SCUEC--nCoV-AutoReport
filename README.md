@@ -28,7 +28,7 @@ ChromeDriver版本应与Chrome浏览器版本相对应，具体说明见下图�
 
 ![](pic/pic1.png)
 
-**项目内自带了92版本的macOS和Windows下的ChromeDriver，请酌情使用。** 若版本号不匹配，请更新chrome或前往国外源https://sites.google.com/a/chromium.org/chromedriver/downloads｜国内源http://npm.taobao.org/mirrors/chromedriver/下载对应版本的ChromeDriver。
+**项目内自带了92版本的macOS和Windows下的ChromeDriver，请酌情使用。** 若版本号不匹配，请更新chrome或前往 [国外源](https://sites.google.com/a/chromium.org/chromedriver/downloads) ｜ [国内源](http://npm.taobao.org/mirrors/chromedriver/) 下载对应版本的ChromeDriver。
 
 ## 使用方法
 
