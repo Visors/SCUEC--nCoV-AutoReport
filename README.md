@@ -26,9 +26,9 @@ pip3 install selenium	# 系统默认安装环境下
 
 ChromeDriver版本应与Chrome浏览器版本相对应，具体说明见下图。
 
-![image-20210814050350779](/Users/visors/Library/Application Support/typora-user-images/image-20210814050350779.png)
+![](pic/pic1.png)
 
-**项目内自带了92版本的macOS和Windows下的ChromeDriver，请酌情使用。**若版本号不匹配，请更新chrome或前往国外源https://sites.google.com/a/chromium.org/chromedriver/downloads｜国内源http://npm.taobao.org/mirrors/chromedriver/下载对应版本的ChromeDriver。
+**项目内自带了92版本的macOS和Windows下的ChromeDriver，请酌情使用。** 若版本号不匹配，请更新chrome或前往国外源https://sites.google.com/a/chromium.org/chromedriver/downloads｜国内源http://npm.taobao.org/mirrors/chromedriver/下载对应版本的ChromeDriver。
 
 ## 使用方法
 
@@ -36,7 +36,7 @@ ChromeDriver版本应与Chrome浏览器版本相对应，具体说明见下图�
 
 打开文件ReportSpider.py，找到这两行：
 
-![image-20210814051113237](/Users/visors/Library/Application Support/typora-user-images/image-20210814051113237.png)
+![](pic/pic2.png)
 
 修改为自己的账号密码即可。
 
@@ -44,7 +44,7 @@ ChromeDriver版本应与Chrome浏览器版本相对应，具体说明见下图�
 
 打开文件ReportSpider.py，找到这两行：
 
-![image-20210814051231343](/Users/visors/Library/Application Support/typora-user-images/image-20210814051231343.png)
+![](pic/pic3.png)
 
 将其改为你对应版本的ChromeDriver路径。
 
@@ -54,7 +54,7 @@ Windows下的ChromeDriver为可执行文件，所以应添加后缀名.exe，即
 
 ### 运行py文件
 
-执行完上述步骤后，直接运行ReportSpider.py，当打印出*Login successfully!*时，说明后台已成功登录你的账号。当打印出*Report Successfully!*时，健康填报完成。
+执行完上述步骤后，直接运行ReportSpider.py，当打印出*Login successfully!* 时，说明后台已成功登录你的账号。当打印出*Report Successfully!* 时，健康填报完成。
 
 若抛出连接异常，则说明当前网络存在问题，可尝试重新执行py文件。若多次执行皆抛出异常，考虑填报网站服务器出现问题，可等待一段时间后再尝试。
 
@@ -66,7 +66,7 @@ Windows下的ChromeDriver为可执行文件，所以应添加后缀名.exe，即
 
 ### 重要内容
 
-由于健康填报表单内容有云端缓存，每次打开填报页面直接点提交就可以了，所以我在编写此脚本时并未逐一对表单内容进行填写——**这意味着你需要先手动提交一天后再使用本脚本**。
+由于健康填报表单内容有云端缓存，每次打开填报页面直接点提交就可以了，所以我在编写此脚本时并未逐一对表单内容进行填写——**这意味着你需要先手动提交一天后再使用本脚本** 。
 
 如果使用起来遇到了麻烦，可以联系我，我会考虑是否要对代码进行补全或改进。也希望使用者能借此机会了解一点爬虫知识，比如本项目的python+selenium，进而可以自行对本项目进行修改。selenium绝对不是效率高的选择，但却是最有效的选择之一。
 
