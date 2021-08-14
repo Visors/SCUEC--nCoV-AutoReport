@@ -1,4 +1,4 @@
-# SCUEC- nCoV-AutoReport
+# SCUEC-nCoV-AutoReport
 
 ## 运行环境
 
